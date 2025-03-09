@@ -1,0 +1,51 @@
+.categoryPanel button {
+    text-transform: capitalize !important;
+}
+
+/* Ensure submenu is hidden by default */
+.nav li .submenu {
+    z-index: 1000;
+    visibility: hidden;
+   
+}
+
+/* Show submenu when hovering over the parent li */
+.nav li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+/* Submenu inside another submenu */
+.nav li .submenu li {
+    position: relative;
+}
+
+/* Second-level submenu (nested) */
+.nav li .submenu li .submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show nested submenu when hovering over parent li */
+.nav li .submenu li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Text colors */
+.nav li:hover > button {
+    color: #ff5252 !important;
+}
+
+.nav li .submenu li .submenu button {
+    color: rgba(0, 0, 0, 0.80) !important;
+}
+
+.nav li .submenu li .submenu button:hover {
+    color: #ff5252 !important;
+}
