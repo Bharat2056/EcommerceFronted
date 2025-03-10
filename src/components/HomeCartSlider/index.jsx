@@ -38,11 +38,11 @@ const HomeCartSlider = () => {
                 <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col ">
                   <img
 
-src="./2.jpg"
+src="https://demos.codezeel.com/prestashop/PRS21/PRS210502/modules/cz_categoryimagelist/views/img/15-cz_categoryimagelist.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Wooden Chair</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -55,7 +55,7 @@ alt=""
                     alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Phones</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -68,7 +68,7 @@ src="./4.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Leather Watch</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -81,7 +81,7 @@ src="./5.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Laptops</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -94,7 +94,7 @@ src="./6.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Bags</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -107,7 +107,7 @@ src="./7.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">Shoes</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -120,7 +120,7 @@ src="./8.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">T-shirts</h3>
                 </div>
               </Link>
             </SwiperSlide>
@@ -129,11 +129,11 @@ alt=""
               <Link to="/">
                 <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col ">
                   <img
-src="./3.jpg"
+src="https://demos.codezeel.com/prestashop/PRS21/PRS210502/modules/cz_categoryimagelist/views/img/18-cz_categoryimagelist.jpg"
 alt=""
                     className="w-[69px]"
                   />
-                  <h3 className="text-[15px] font-[500] mt-3">Smart Tablet</h3>
+                  <h3 className="text-[15px] font-[500] mt-3">X Box</h3>
                 </div>
               </Link>
             </SwiperSlide>
