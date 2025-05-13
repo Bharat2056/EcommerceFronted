@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 const HomeSlider = () => {
   return (
     <>
-      <div className="homeslider py-4">
+      <div className="homeslider py-4"> 
         <div className="container">
           <Swiper
             navigation={true}
