@@ -101,6 +101,10 @@ nav ul button:hover{background: none!important;}
  } 
 
 .btn-org{ background:#ff5252 !important; color:#fff !important; font-weight: 500; font-size: 16px; padding:7px 20px !important;}
+.btn-org:hover{
+  background: #171717 !important;
+}
+
 footer form input::placeholder{font-size: 14px;}
 
  .productsSlider .swiper-wrapper{
@@ -161,4 +165,14 @@ footer form input::placeholder{font-size: 14px;}
 
  .ReactCollapse--collapse{
   transition:height 400ms;
+ }
+
+ .aitemViewActions button.active svg{
+  color: #ff5252;
+  opacity: 1;
+ }
+
+ .Mui-selected.MuiPaginationItem-page{
+  background: #ff5252;
+  color: #fff;
  }
